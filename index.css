@@ -1,0 +1,145 @@
+div {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border-radius:20px;
+}
+
+body {
+    background-color:#FAFAD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    
+}
+
+.chat-container {
+    width:100%;
+    border:10px;
+    height:100%;
+    max-width:600px;
+    background:#454545;
+    color:60%rgb(172, 185, 26)	rgb(112, 133, 118)	hsl(137, 10%, 60%);
+    border-radius: 70px;
+    box-shadow:10px rgb(76, 121, 88)	rgb(92, 138, 104)	hsl(136, 20%, 45%);
+}
+
+.chat-header {
+   color:#d4e157 ;
+   text-decoration:underline;
+   font-size:30px;
+   font-family:serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.chat-messages {
+    height: 400px;
+    max width:200px;
+    padding: 10px;
+    overflow-y: auto;
+    text-align: center;
+  
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 200%;
+    word-wrap: break-word;
+}
+
+.received {
+    background:rgb(26, 51, 77);
+    float: left;
+    clear: both;
+}
+
+.sent {
+    background:rgb(40, 204, 95);
+    color: white;
+    float: right;
+    clear: both;
+}
+
+.message .sender {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+   
+}
+
+.sent .sender {
+    color:	  #73e373
+}
+
+.chat-input {
+    padding: 2px;
+    background-color:#BC8F8F;
+    display: flex;
+    align-items:center;
+    gap: 2px;
+}
+
+input{
+
+    margin:5px;
+    padding: 5px;
+    border: 6px solid 	#75f09e	rgb(117, 240, 158);
+    border-radius: 20px;
+    outline: none;
+}
+
+#nameInput {
+    width: 150px;
+    height:20px;
+    margin-left:4px;
+    background-color:black;
+    color:white ;
+}
+
+#messageInput {
+    
+    height:20px;
+    width:390px;
+    background-color:black;
+    color:white ;
+
+
+}
+
+button {
+    padding: 40px 
+    height: 60px;
+    width:100px;
+    background-color:rgb(165, 126, 53);
+    color: black;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition:all;
+}
+
+button:hover {
+    background:rgb(12, 106, 17);
+}
+img{
+    margin:5px;
+    border:3px;
+    height:50px;
+    width:80px;
+    border radius: 900;
+   
+}
+
+#messages{
+    margin:5px;
+    border:5px;
+    padding:10px;
+    color:rgb(246, 242, 235);
+    font-size:25px;
+
+}

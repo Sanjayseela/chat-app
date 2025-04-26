@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Simple Chat</h2>
+        </div>
+        <div class="chat-messages" id="messageArea"></div>
+        <div id="messages"></div>
+        <div class="chat-input">
+
+            <input type="text" id="nameInput" placeholder="enter your name " />
+            <input type="text" id="messageInput" placeholder="Type a message..." maxlength="500">
+            <button onclick="send()">
+            <img src="https://c8.alamy.com/comp/2WP8XMY/the-cartoon-forward-arrow-button-is-isolated-2WP8XMY.jpg" ></img> 
+            </button>
+        </div>
+    </div>
+    
+   </body>
+<script src="./index.js">defer</script>
+</html>
